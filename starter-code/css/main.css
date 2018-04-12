@@ -8,3 +8,146 @@ body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
 }
+.bluediv{
+  background-color: #3c6588;
+  height: 300px;
+  width: 100%;
+  padding: 0 0 0 0 ;
+  position: relative;
+  z-index: 0;
+  float: inherit;
+}
+.iphone{
+  position: relative;
+  padding: 0 0 0 0;
+  margin: 8rem 0 0 12rem;
+  float: left;
+  z-index: 1;
+}
+.instagram-logo{
+  position: relative;
+  margin: 8.8rem 0 0.6rem 3.4rem;
+  float: left;
+  z-index: 1;
+}
+
+.login-button{
+  position: relative;
+  margin: 9.8rem 0 0 5.5rem;
+  padding: 0.3rem 0.4rem 0.2rem 0.4rem;
+  float: left;
+  background-color: #3c6588;
+  background-blend-mode: initial;
+  /* border: 1px solid #17212e; */
+  border-radius: 1.5px;
+  box-sizing: border-box;
+  box-shadow: 0px 0.6px 0.6px 0.6px #1c5380;
+  background-image: linear-gradient(to bottom, #6f92b1, #3c6588);
+  /* filter:progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#819BCB, endColorstr=#536F9D); */
+}
+.login-button > img{
+  position: relative;
+  margin: 0 0 0 0;
+  padding: 5px 1px 1px 1px;
+  
+}
+.login-button > span{
+  position: relative;
+  /* top: -5px; */
+  bottom: 6px;
+  margin: 0 0 0 0;
+  padding: 1px 2px 1px 4px;
+  color: #cfdbe4;
+  font-size: 13px;
+  font-weight: 450;
+}
+.main-text > img{
+  position: relative;
+  margin: 0rem 0 0 3rem;
+  float: left;
+  z-index: 1;
+  /* border: 1px solid #17212e; */
+}
+#phrase{
+  position: relative;
+  margin: -16rem 0rem 0 5.5rem;
+  float: left;
+  z-index: 2;
+  color: #1c5380;
+  font-weight: 500;
+  line-height: 2rem;
+  font-size: 1.6rem;
+  width: 16rem;
+  z-index: 2;
+}
+.secundary-text{
+  position: relative;
+  float: left;
+  width: 25.5rem;
+  margin: -12rem 0 0 5.5rem;
+  font-size: 15px;
+  font-weight: 450;
+  z-index: 2;
+}
+.secundary-text >p{
+  margin: 1rem 0 0 0rem;
+  color: #595959;
+}
+.secundary-text p b{
+  color: black;
+}
+.apple-store-icon{
+  /* clear: both; */
+  position: relative;
+  float: left;
+  margin: 3rem 0rem 0rem -25.5rem;
+}
+.google-play-icon{
+  /* clear: both; */
+  position: relative;
+  float: left;
+  margin: 3rem 0rem 0rem -14rem;
+  /* top , right , bottom , left */
+}
+.list ul{
+  list-style-type: none;
+
+}
+.list li{
+  font-weight: 400;
+  text-decoration:bold;
+  font-size:0.8em;
+  text-decoration:none;
+  margin: 0rem 0rem 0rem 19rem;
+  /* float:left; */
+  /* position: relative; */
+  z-index: 3;
+  clear: both;
+
+  list-style-type: none;
+}
+.list li a{
+  text-decoration:none;
+  /* list-style-type: none; */
+}
+/* .nav-bar{
+  background-color:rgb(25,33,41);
+  padding:14px 0px 14px 0px;
+    height:40px;
+}
+.nav-bar-item a{
+  color: rgb(255,255,255);
+  text-decoration:bold;
+  font-size:2em;
+  text-decoration:none;
+}
+.nav-bar-ul{
+  width:1200px;
+  margin:0 auto;
+}
+.nav-bar-ul li{
+  list-style-type:none;
+  text-align:center;
+  float:left;
+  width:33%;
+} */
