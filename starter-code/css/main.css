@@ -9,6 +9,7 @@ body {
   margin: 0;
 }
 .bluediv{
+  position: absolute;
   background-color: #3c6588;
   height: 300px;
   width: 100%;
@@ -70,7 +71,7 @@ body {
 }
 #phrase{
   position: relative;
-  margin: -16rem 0rem 0 5.5rem;
+  margin: -250px 0rem 0 5.5rem;
   float: left;
   z-index: 2;
   color: #1c5380;
@@ -107,21 +108,27 @@ body {
   margin: 3rem 0rem 0rem -14rem;
   /* top , right , bottom , left */
 }
-/* .list ul{
-  
-} */
+.list{
+position: absolute;
+margin: 32% 0 0 25%;
+}
 .list li{
-  font-weight: 400;
+  position: relative;
+  display: inline;
+  font-weight: 600;
   text-decoration:bold;
-  font-size:0.8em;
+  font-size:0.7em;
   z-index: 3;
-  clear: both;
+  /* clear: both; */
   list-style-type: none;
+  margin: 0 0 0 10px;
+  color: #6f92b1;
 }
 .list li a{
-  position: absolute;
-  padding: 0px 0px 0 315px;
-  
+  display: inline;
+  position: relative;
+  padding: 0px 0px 0px 0px;
+  color: #6f92b1;
   text-decoration:none;
   border-left: 15rem;
 }
